@@ -10,7 +10,8 @@ $(document).ready( function () {
 
   function showSlider() {
     var url = safari.extension.baseURI + 'sliderPanel.html';
-    $.pageslide({ direction: 'right', modal:true, href: url });
+    $.pageslide({ direction: 'right', modal:true, href: url, iframe: false });
+    $('.r').zIndex(9999999);
     $('.r').draggable();
     setDroppable();
     closeSlider();
