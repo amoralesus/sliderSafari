@@ -2,4 +2,21 @@ body {
   color: white;
   font-size: 13px;
   font-family: Arial;
+
+}
+
+a {
+  color: white;
+}
+
+#dropContainer {
+  background-color: gray;
+  color: black;
+  width: 250px;
+  height: 300px;
+  border: 1px solid gray;
+}
+
+.hoverDroppable {
+  border: 2px solid yellow;
 }

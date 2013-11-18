@@ -50,11 +50,13 @@
 			<key>Start</key>
 			<array>
 				<string>jquery-1.9.1.js</string>
+				<string>jquery-ui-1.10.3.custom.min.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>
 		<array>
 			<string>jquery.pageslide.css</string>
+			<string>jquery-ui-1.10.3.custom.min.css</string>
 		</array>
 	</dict>
 	<key>Description</key>
