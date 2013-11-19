@@ -9,12 +9,11 @@ a {
   color: white;
 }
 
-#dropContainer {
-  background-color: gray;
-  color: black;
+#drop_container {
+  color: white;
   width: 250px;
   height: 300px;
-  border: 1px solid gray;
+  border: 1px solid white;
 }
 
 .hoverDroppable {

@@ -1,3 +1,7 @@
+var newElement = document.createElement("div");
+newElement.id = "myPageSlider"
+newElement.style.display = "none";
+document.body.insertBefore(newElement, document.body.firstChild);
 
 $(document).ready( function () {
   function handleMessage(msgEvent) {
@@ -9,10 +13,10 @@ $(document).ready( function () {
   };
 
   function showSlider() {
-    var url = safari.extension.baseURI + 'sliderPanel.html';
-    $.pageslide({ direction: 'right', modal:true, href: url, iframe: false });
+    $('#myPageSlider').append('<p>test</p>');
+    $.pageslide({ direction: 'right', modal:true, href: "#myPageSlider", iframe:false});
     $('.r').zIndex(9999999);
-    $('.r').draggable();
+    $('.r').draggable({revert:true});
     setDroppable();
     closeSlider();
   };
